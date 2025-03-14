@@ -6,6 +6,15 @@ def somme(T):
     return S
 =======
 Data=[1,3,5]
+<<<<<<< HEAD
 Som=sum(Data)
 print('la somme est :', Som)
+>>>>>>> casee1
+=======
+if Data:
+    print('la somme est :', sum(Data))
+    print('le min est :', min(Data))
+    print('le max est :', max(Data))
+else:
+    print('dossier vide')
 >>>>>>> casee1
